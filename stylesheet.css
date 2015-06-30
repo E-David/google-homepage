@@ -1,0 +1,80 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+#container {
+	min-height: 100%;
+	position: relative;
+}
+#container a{
+	padding: 10px;
+	margin-right: 10px;
+	display: inline-block;
+}
+#sign-in a {
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	padding: 8px 15px;
+}
+#sign-in a:hover{
+	text-decoration: none;
+}
+#sign-in a:active{
+	background-color: #6CA6CD;
+}
+#header {
+	padding: 10px;
+	text-align: right;
+}
+#body {
+	padding: 10px;
+	padding-bottom: 40px;
+	display: block;
+}
+#search-bar input[type="text"]{
+	font-size: 16px;
+	min-width: 500px;
+	padding: 5px 8px;
+}
+.buttons input[type="submit"]{
+	margin: 11px 8px;
+	text-align: center;
+	padding: 8px;
+	font-weight: bold;
+}
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #f2f2f2;
+}
+#footer a {
+	margin: 0px 8px;
+	padding: 10px;
+	display: inline-block;
+	font-family: arial, sans-serif;
+}
+#btm-left {
+	position: absolute;
+	left: 0;
+	padding-left: 27px;
+}
+#btm-right {
+	position: absolute;
+	float: right;
+	right: 0;
+	padding-right: 27px;
+}
+a:link {
+	text-decoration: none;
+	color: gray;
+}
+a:hover {
+	text-decoration: underline;
+}
+a:visited {
+	color: gray;
+}
